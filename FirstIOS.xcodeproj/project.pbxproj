@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2C77A501216FC4FA00BE0FCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C77A500216FC4FA00BE0FCB /* AppDelegate.swift */; };
-		2C77A503216FC4FA00BE0FCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C77A502216FC4FA00BE0FCB /* ViewController.swift */; };
+		2C77A503216FC4FA00BE0FCB /* ColorChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C77A502216FC4FA00BE0FCB /* ColorChangeViewController.swift */; };
 		2C77A506216FC4FA00BE0FCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C77A504216FC4FA00BE0FCB /* Main.storyboard */; };
 		2C77A508216FC50800BE0FCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C77A507216FC50800BE0FCB /* Assets.xcassets */; };
 		2C77A50B216FC50800BE0FCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C77A509216FC50800BE0FCB /* LaunchScreen.storyboard */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		2C77A4FD216FC4F900BE0FCB /* FirstIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C77A500216FC4FA00BE0FCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2C77A502216FC4FA00BE0FCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C77A502216FC4FA00BE0FCB /* ColorChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChangeViewController.swift; sourceTree = "<group>"; };
 		2C77A505216FC4FA00BE0FCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C77A507216FC50800BE0FCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C77A50A216FC50800BE0FCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 		2C77A514216FC62200BE0FCB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				2C77A502216FC4FA00BE0FCB /* ViewController.swift */,
+				2C77A502216FC4FA00BE0FCB /* ColorChangeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -170,7 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C77A503216FC4FA00BE0FCB /* ViewController.swift in Sources */,
+				2C77A503216FC4FA00BE0FCB /* ColorChangeViewController.swift in Sources */,
 				2C77A501216FC4FA00BE0FCB /* AppDelegate.swift in Sources */,
 				2C77A517216FC67200BE0FCB /* ColorTool.swift in Sources */,
 			);
@@ -317,7 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FirstIOS/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FirstIOS/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,7 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FirstIOS/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FirstIOS/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
